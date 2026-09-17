@@ -8,20 +8,31 @@ This system replaces manual/ad-hoc equipment issue reporting with a structured t
 **User Roles & Permissions**
 
  Staff
+ 
 -Submit tickets to report issues with equipment
+
 -View equipment records
 
 Technical
+
 -Add, update, and delete equipment records
+
 -Receive assigned tickets
+
 -Mark tickets as completed once resolved
+
 -View full ticket details
 
 Administrator
+
 -Create, update, and delete user accounts
+
 -Add, update, and delete equipment records
+
 -View full ticket details
+
 -Assign tickets to the appropriate technical staff
+
 -Approve and delete tickets
 **Features**
 Role-based authentication and access control
