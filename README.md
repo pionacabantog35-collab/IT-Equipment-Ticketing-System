@@ -1,11 +1,12 @@
-IT Equipment & Ticketing System
+**IT Equipment & Ticketing System
+**
 A role-based web application for managing IT equipment and support tickets at Arellano University. Built to streamline how equipment issues are reported, assigned, resolved, and tracked across three distinct user roles.
 
-Overview
+**Overview**
 
 This system replaces manual/ad-hoc equipment issue reporting with a structured ticketing workflow. Staff can report problems with equipment, technical personnel handle repairs and updates, and administrators oversee accounts, equipment inventory, and ticket routing.
 
-User Roles & Permissions
+**User Roles & Permissions**
 🧑‍💼 Staff
 Submit tickets to report issues with equipment
 View equipment records
