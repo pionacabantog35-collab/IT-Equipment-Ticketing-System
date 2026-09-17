@@ -1,5 +1,5 @@
 **IT Equipment & Ticketing System**
-A role-based web application for managing IT equipment and support tickets at Arellano University. Built to streamline how equipment issues are reported, assigned, resolved, and tracked across three distinct user roles.
+<br>A role-based web application for managing IT equipment and support tickets at Arellano University. Built to streamline how equipment issues are reported, assigned, resolved, and tracked across three distinct user roles.
 
 **Overview**
 
