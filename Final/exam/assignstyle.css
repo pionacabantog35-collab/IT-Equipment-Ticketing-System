@@ -1,0 +1,155 @@
+.body {
+        font-family: 'sans-serif;', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        display: flex;
+    }
+
+   .sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #3D59AB;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 20px;
+    }
+
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .sidebar ul li {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .sidebar ul li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+    }
+
+    .sidebar ul li a:hover {
+        background-color: #ff5722;
+    }
+    .header-container {
+        position: fixed;
+        top: 0;
+        left: 250px;
+        width: calc(100% - 250px);
+        padding: 15px;
+        background-color: #004999;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+    }
+
+    .header-container h1 {
+        margin: 0;
+          margin-left: 15px;
+          color: white;
+    }
+    .logout-container {
+    margin-left: auto ;
+    margin-right: 20px;
+}
+
+.logout-btn {
+    margin-left: auto; /* Pushes it to the right */
+    height: 40px; /* Adjust size */
+    width: 40px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.logout-btn:hover {
+    opacity: 0.7; /* Slight fade effect on hover */
+}
+    .main-content {
+        margin-top: 80px;
+        margin-left: 250px;
+        padding: 20px;
+        width: calc(100% - 250px);
+    }
+    
+    .container {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+            margin: 40px auto;
+        }
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+        }
+        input[type="text"],input[type="password"], select, textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        textarea {
+            resize: none;
+            height: 80px;
+        }
+
+    .button-container {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px; 
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .btn-assign{
+         background-color: #28a745; 
+            color: white;
+
+        }
+
+        .btn-update {
+            background-color: #28a745; 
+            color: white;
+        }
+
+        .btn-cancel {
+            background-color: #dc3545; 
+            color: white;
+        }
+
+        .btn:hover {
+            opacity: 0.8;
+        }
